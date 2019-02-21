@@ -1,1 +1,35 @@
 // Navigation Styles here
+.top-nav {
+  width: 100%;
+  border-bottom: 2px dashed @navigation-border;
+  color: @font-color;
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+  
+  .wordmark {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4rem;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    margin-right: 30px;
+
+    a {
+      color: @shark;
+      text-decoration: none;
+      font-size: 1.6rem;
+    }
+  }
+}
