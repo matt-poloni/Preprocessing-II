@@ -14,6 +14,12 @@ Fun Bus is a travel agency looking for some help on their website.  They want a 
 * [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [x] Push commits: git push origin `<firstName-lastName>`.
 
+Follow these steps for completing your project.
+
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Add your project manager as a reviewer on the pull-request
+- [ ] Your project manager will count the project as complete by merging the branch back into master.
+
 ## Task 2: Set up your preprocessor
 * [x] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 * [x] Open your terminal and navigate to your preprocessing project by using the `cd` command
@@ -23,7 +29,7 @@ Fun Bus is a travel agency looking for some help on their website.  They want a 
 
 ## Task 3: Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank.  In order for you to see the styles for this project you must import them in a certain order.  That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank.  In order for you to see the styles for this project you must import them in a certain order.  That order is as follows:
 
 1. `variables.less`
 2. `mixins.less`
