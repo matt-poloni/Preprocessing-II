@@ -345,7 +345,7 @@ img {
   }
 }
 .home .content-pick .btn {
-  width: 200px;
+  min-width: 200px;
   background: #17A2B8;
   color: white;
   font-size: 1.8rem;
@@ -353,8 +353,8 @@ img {
   padding: 13px;
   border-radius: 15px;
 }
-@media (max-width: 517px) {
+@media (max-width: 817px) {
   .home .content-pick .btn {
-    width: 100%;
+    min-width: 100%;
   }
 }
