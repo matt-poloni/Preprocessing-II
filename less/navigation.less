@@ -4,6 +4,8 @@
   border-bottom: 2px dashed @navigation-border;
   color: @font-color;
 
+  margin-top: -24px; // DELETE THIS
+
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -12,11 +14,21 @@
     width: 100%;
     margin: 0 auto;
     padding: 24px 0;
+
+    @media @mobile {
+      flex-direction: column;
+      align-items: center;
+      padding: 18px 0;
+    }
   }
   
   .wordmark {
     font-family: 'Indie Flower', cursive;
     font-size: 4rem;
+
+    @media @mobile {
+      font-size: 3rem;
+    }
   }
 
   .nav-links {
@@ -24,7 +36,14 @@
     justify-content: space-between;
     align-items: center;
     width: 290px;
-    margin-right: 30px;
+    margin: 30px 30px 0 0;
+
+    @media @mobile {
+      justify-content: space-evenly;
+      width: 100%;
+      margin-right: 0;
+      
+    }
 
     a {
       color: @shark;
