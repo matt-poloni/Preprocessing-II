@@ -13,3 +13,16 @@
     width: 100%;
   }
 }
+
+.swell(@bg: #212529, @fc: white, @pad: 5px) {
+  border-radius: 5px;
+  transition: all 1s;
+  background: @fc;
+  color: @bg;
+
+  &:hover {
+    background: @bg;
+    color: @fc;
+    padding: @pad;
+  }
+}
