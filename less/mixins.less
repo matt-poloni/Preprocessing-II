@@ -1,1 +1,28 @@
 // Mixins in here
+
+.btn-custom() {
+  min-width: 200px;
+  background: @eastern-blue;
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 13px;
+  border-radius: 15px;
+
+  @media @container {
+    min-width: 100%;
+  }
+}
+
+.swell(@bg: #212529, @fc: white, @pad: 5px) {
+  border-radius: 5px;
+  transition: all 1s;
+  background: @fc;
+  color: @bg;
+
+  &:hover {
+    background: @bg;
+    color: @fc;
+    padding: @pad;
+  }
+}

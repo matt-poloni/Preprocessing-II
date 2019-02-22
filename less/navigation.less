@@ -1,1 +1,61 @@
 // Navigation Styles here
+.top-nav {
+  width: 100%;
+  border-bottom: 2px dashed @navigation-border;
+  color: @font-color;
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
+
+    @media @container {
+      padding: 18px 5% 8px;
+    }
+
+    @media @mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .wordmark {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4rem;
+
+    @media @mobile {
+      font-size: 3rem;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    margin-right: 30px;
+    background-color: inherit;
+
+    @media @container {
+      margin-right: 0;
+    }
+
+    @media @mobile {
+      justify-content: space-around;
+      width: 100%;
+      margin-top: 16px;
+      
+    }
+
+    a {
+      color: @shark;
+      text-decoration: none;
+      font-size: 1.6rem;
+      .swell($color);
+    }
+  }
+}
