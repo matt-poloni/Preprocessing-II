@@ -216,6 +216,7 @@ img {
   align-items: center;
   width: 290px;
   margin-right: 30px;
+  background-color: inherit;
 }
 @media (max-width: 817px) {
   .top-nav .nav-links {
@@ -230,17 +231,16 @@ img {
   }
 }
 .top-nav .nav-links a {
-  background-color: orange;
   text-decoration: none;
   font-size: 1.6rem;
   border-radius: 5px;
   transition: all 1s;
-  background: orange;
+  background: white;
   color: #212529;
 }
 .top-nav .nav-links a:hover {
   background: #212529;
-  color: orange;
+  color: white;
   padding: 5px;
 }
 .footer {
